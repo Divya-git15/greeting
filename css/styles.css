@@ -1,0 +1,122 @@
+body{
+  text-align:center;
+  font-family: "Montserrat-Black";
+}
+
+h1{
+  font-family: "Montserrat-bold";
+  color:#336699;
+  font-weight: bold;
+}
+
+p{
+  font-size: 2rem;
+  font-weight:900;
+  color:#fff;
+  width:80%;
+  text-align:center;
+  margin:auto;
+}
+
+.container-fluid{
+  background-color: #ff4c68;
+  padding-bottom: 50px;
+}
+
+/*Navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight:normal;
+  text-align: center;
+}
+
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size:1.2rem;
+  }
+
+.year-image{
+width:90%;
+}
+
+.title-text{
+  color:#20b2aa;
+}
+
+/*Feature Section*/
+.feature-box{
+  padding: 50px;
+  align:center;
+}
+.feature-text{
+  text-align: center;
+  color:#d3d3d3;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+.icon{
+  color:#ef8172;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*testimonial Section*/
+ #testimonials{
+   padding: 7% 15%;
+   text-align: center;
+   background-color: #ff4c68;
+   color:#fff;
+ }
+   .testimonial-text{
+     font-size:3.5rem;
+     line-height: 1.5;
+     font-weight: 900;
+   }
+
+ .testimonial-image{
+   width:20%;
+   border-radius: 100%;
+   margin:20px;
+ }
+
+ /*Image section*/
+ #Images{
+    background-size:cover;
+    padding:60px 15px;
+}
+
+.calendar-img{
+  margin:0px;
+}
+
+ .image-text{
+   color:grey;
+ }
+
+/*Footer-section*/
+#footer{
+  padding:7% 15%;
+  text-align:center;
+  background-color: #ff4c68;
+}
+
+.social-icon{
+  margin:20px 10px;
+  color:white;
+}
+
+@media (max-width:1028px){
+
+  #title{
+    text-align:center;
+  }
