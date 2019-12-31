@@ -120,3 +120,6 @@ width:90%;
   #title{
     text-align:center;
   }
+  .year-image{
+    position: static;
+  }
